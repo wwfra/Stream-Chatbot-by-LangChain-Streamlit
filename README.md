@@ -130,7 +130,7 @@ if user_input is not None and user_input != (" " * len(user_input)):
 else:
     print("It's a Empty Input!")
 ```
-![stream_page](./img/streamRes.png)
+![stream_page](./img/stream.png)
 ![streamRes_page](./img/streamRes.png) 
 ### 4.Run it !
 ```{.python .input}
