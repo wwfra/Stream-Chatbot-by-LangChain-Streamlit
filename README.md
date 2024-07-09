@@ -79,7 +79,7 @@ if user_input is not None and user_input != (" " * len(user_input)):
 else:
     print("It's a Empty Input!")
 ```
-![init_page](./img/init.png) 
+![memory_page](./img/memory.png) 
 - 2 - 让用户与LLM交互  
 
 我们定义一个query方法将用户输入传给LLM，并返回 LLM 的回答
@@ -106,7 +106,7 @@ def query(user_input, chat_history):
         "user_input": user_input
     })
 ```
-![memory_page](./img/memory.png) 
+![response_page](./img/response.png) 
 - 3 - 将 query 方法引入 streamlit 中
 
 稍微改造一下之前的代码，这边我们使用流式输出:
@@ -130,7 +130,8 @@ if user_input is not None and user_input != (" " * len(user_input)):
 else:
     print("It's a Empty Input!")
 ```
-![stream_page](./img/stream.png) 
+![stream_page](./img/streamRes.png)
+![streamRes_page](./img/streamRes.png) 
 ### 4.Run it !
 ```{.python .input}
 streamlit run app.py
